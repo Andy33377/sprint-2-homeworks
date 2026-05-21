@@ -1,0 +1,11 @@
+.hw {
+  padding: 24px 70px 32px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.hwTitle {
+  padding: 60px 70px 12px;
+  font-size: 28px;
+  font-weight: 600;
+}
