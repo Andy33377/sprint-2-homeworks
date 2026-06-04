@@ -27,8 +27,8 @@ const Greeting: React.FC<GreetingPropsType> = ({
 
   return (
     <div id={"hw3-form"} className={s.greetingForm}>
-      <div id="hw3-users-total" className={s.text}>
-        Людей добавили: {totalUsers}
+      <div className={s.text}>
+        Людей добавили: <span id="hw3-users-total">{totalUsers}</span>
       </div>
 
       <div className={s.inputAndButtonContainer}>
